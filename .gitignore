@@ -1,0 +1,62 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.whl
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- UV specific ---
+.uv/
+
+# --- Environment variables / secrets ---
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swo
+*.swp
+
+# --- Testing / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# --- ML / GenAI specific ---
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+models/
+cache/
+.huggingface/
+*.sqlite3
+*.db
+
+# --- Logs ---
+*.log
+logs/

@@ -1,0 +1,34 @@
+# LangChain
+langchain
+langchain-core
+langchain-community
+langgraph
+transformers
+torch
+sentence-transformers
+
+# LLM Providers
+langchain-openai
+langchain-google-genai
+langchain-mistralai
+langchain-groq
+langchain-huggingface
+langchain-nvidia-ai-endpoints
+langchain-xai
+
+# RAG / Embeddings
+faiss-cpu
+tiktoken
+
+# Environment
+python-dotenv
+
+# API
+fastapi
+uvicorn
+
+# HTTP
+requests
+
+# Extras
+streamlit
